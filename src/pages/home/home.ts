@@ -6,7 +6,9 @@ import { NavController } from 'ionic-angular';
   templateUrl: 'home.html'
 })
 export class HomePage {
-
+  goToBtns: string = "CardsBadgesPage";
+  goToLsts: string = "ListsPage";
+  goToInpts: string = "InputRadiosPage";
   constructor(public navCtrl: NavController) {
 
   }
